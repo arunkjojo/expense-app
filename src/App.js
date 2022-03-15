@@ -1,5 +1,6 @@
 import Expenses from "./components/Expenses/Expenses";
 import expenses from "./expenses.json";
+import "./App.css"
 export default function App() {
   // const expenses = [
   //   {
@@ -29,7 +30,7 @@ export default function App() {
   // ];
   return (
     <div className="">
-      <h2>Expense App</h2>
+      <h2 className="app-heading">Expense App</h2>
       <Expenses items={expenses} />
     </div>
   );
